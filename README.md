@@ -48,7 +48,7 @@ Com as funções especificadas será criado esse automato:
 Por fim o usuario pode entrar com palavras para serem verificadas e serao mostrados os passos e se ocorreu algum problema onde esse problema foi encontrado.
 
 
-##Codigo 
+## Execução 
 
 ```
 Digite todos estados iniciais seguidos: (abcd) 
