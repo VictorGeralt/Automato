@@ -46,3 +46,50 @@ Com as funções especificadas será criado esse automato:
 
 
 Por fim o usuario pode entrar com palavras para serem verificadas e serao mostrados os passos e se ocorreu algum problema onde esse problema foi encontrado.
+
+
+##Codigo 
+
+```
+Digite todos estados iniciais seguidos: (abcd) 
+a
+Digite todos estados finais seguidos: (abcd) 
+c
+Digite o numero de funcoes de transicao exceto as que levam para o estado final: 
+4
+Digite o numero do estado atual: (q0=0,q1=1,q2=2,...) 
+0
+Digite o Valor: 
+a
+Digite o numero do estado final: (q0=0,q1=1,q2=2...)
+0
+Digite o numero do estado atual: (q0=0,q1=1,q2=2,...) 
+0
+Digite o Valor: 
+a
+Digite o numero do estado final: (q0=0,q1=1,q2=2...)
+1
+Digite o numero do estado atual: (q0=0,q1=1,q2=2,...) 
+1
+Digite o Valor: 
+b
+Digite o numero do estado final: (q0=0,q1=1,q2=2...)
+1
+Digite o numero do estado atual: (q0=0,q1=1,q2=2,...) 
+1
+Digite o Valor: 
+b
+Digite o numero do estado final: (q0=0,q1=1,q2=2...)
+2
+Digite uma palavra para ser verificada: 
+aabbc
+Estado inicial encontrado
+q0 para q0
+q0 para q1
+q1 para q1
+q1 para q2
+Estado final existente
+ACEITO
+Deseja verificar outra palavra? (s) // (n) 
+n
+```
